@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<link rel="icon" href="images/logo.svg" type="images/x-ico" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
+	<!-- meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="order by womengda.cn/" />
+	<meta name="keywords" content="" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //meta tags -->
+	<!--fonts-->
+	<link
+		href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+		rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<!--//fonts-->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<!-- Required-js -->
+
+	<!-- main slider-banner -->
+	<script src="js/skdslider.min.js"></script>
+	<link href="css/skdslider.css" rel="stylesheet">
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+			jQuery('#demo1').skdslider({ 'delay': 5000, 'animationSpeed': 2000, 'showNextPrev': true, 'showPlayButton': true, 'autoSlide': true, 'animationType': 'fading' });
+
+			jQuery('#responsive').change(function () {
+				$('#responsive_wrapper').width(jQuery(this).val());
+			});
+
+		});
+	</script>
+	<!-- //main slider-banner -->
+
+	<!-- scriptfor smooth drop down-nav -->
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<!-- //script for smooth drop down-nav -->
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<div class="w3layouts-top-strip">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="index.html"><span>BLIM </span><a style="font-size:25px;">Battery Life Itelli-Management</a>
+						</a></h1>
+				</div>
+				<div class="w3ls-social-icons">
+					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+					<a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
+					<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="agileits-contact-info text-right">
+					<ul>
+						<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a
+								href="mailto:13690152826@163.com">13690152826@163.com</a></li>
+						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+86 136 9015 2826</li>
+					</ul>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- navigation -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a class="active" href="index.html"> Home </a></li>
+						<li><a href="products.html"> Products </a></li>
+						<li><a href="solutions.html"> Solutions </a></li>
+						<li><a href="about.html"> About </a></li>
+						<li><a href="contact.html"> Contact </a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- //navigation -->
+	</header>
+	<!-- //header -->
+	<!-- top-header and slider -->
+	<div class="w3-slider">
+		<!-- main-slider -->
+		<ul id="demo1">
+			<li>
+				<img src="images/1.jpg" alt="" />
+				<!--Slider Description example-->
+				<div class="slide-desc">
+					<h3>AI Empowering Batteries</h3>
+					<p>Unleash the power of batteries with AI technology. Elevate your battery experience to new
+						heights.</p>
+				</div>
+			</li>
+			<li>
+				<img src="images/2.jpg" alt="" />
+				<div class="slide-desc">
+					<h3>Smart Solutions</h3>
+					<p>Discover intelligent solutions tailored to optimize battery performance and longevity.</p>
+				</div>
+			</li>
+			<li>
+				<img src="images/3.jpg" alt="" />
+				<div class="slide-desc">
+					<h3>Unlocking the Potential of Every Battery</h3>
+					<p>Maximize battery lifespan and performance through personalized optimization techniques.</p>
+				</div>
+			</li>
+			<li>
+				<img src="images/4.jpg" alt="" />
+				<div class="slide-desc">
+					<h3>Limitless Possibilities</h3>
+					<p>Explore a world of limitless possibilities with our advanced battery management solutions.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- //main-slider -->
+	<!-- //top-header and slider -->
+	<!-- about -->
+	<div class="services-w3ls">
+		<div class="container">
+			<h2 class="w3ls_head">Wel<span>come</span></h2>
+			<div class="agile_banner_bottom_grids">
+				<div class="col-md-6 w3layouts_about_grid_left">
+					<h4>About EBM</h4>
+					<p>Every Battery Management (EBM) is a high-tech enterprise dedicated to providing accurate,
+						efficient, and safe battery management and life prediction solutions for the fields of electric,
+						energy storage, and healthcare.</p>
+					<p>Build a remote data cloud platform that is infinitely close to the usage of each battery.</p>
+					<p>Define more scenario oriented innovative applications to achieve personalized BMS systems.</p>
+					<p>Explore cloud based proactive security warning strategies and use digital security to protect
+						daily life.</p>
+				</div>
+				<div class="col-md-6 w3layouts_about_grid_right">
+					<iframe src="D:\school\hust-gz\RBCC线下营\公司官网\BLIM\images\EVM-vedio.mp4"></iframe>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- Specialize-section -->
+	<section class="w3-about text-center">
+		<div class="container">
+
+			<div class="col-md-4 w3l-abt-grid">
+				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+					<a href="#" class="hi-icon icon1"><i class="fa fa-cog" aria-hidden="true"></i></a>
+				</div>
+				<h4>Vision</h4>
+				<p>Open another window for battery management, making battery life healthier and more vibrant.</p>
+			</div>
+			<div class="col-md-4 w3l-abt-grid">
+				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+					<a href="#" class="hi-icon icon2"><i class="fa fa-sun-o" aria-hidden="true"></i></a>
+				</div>
+				<h4>Value</h4>
+				<p>Using technology to make life safer, more comfortable, and more environmentally friendly.</p>
+			</div>
+			<div class="col-md-4 w3l-abt-grid">
+				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+					<a href="#" class="hi-icon icon3"><i class="fa fa-gift" aria-hidden="true"></i></i></a>
+				</div>
+				<h4>Mission</h4>
+				<p>Technology enriches the vast world. New energy endows sustainable development with energy.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<!-- //Specialize-section -->
+	<!--clients-->
+	<div class="w3layouts-clients">
+		<div class="container">
+			<h3>Data driven <span>and intelligent decision-making</span></h3>
+			<p>Utilize the data analysis and intelligent decision-making capabilities of AIGC technology to provide accurate and reliable battery management and life prediction, and provide customers with accurate energy management recommendations.</p>
+		</div>
+	</div>
+	<!--//clients-->
+	<!--advantage-->
+	<div class="what-w3ls">
+		<div class="container">
+			<h3 class="w3ls_head">What <span>We Do</span></h3>
+			<div class="what-grids">
+				<div class="col-md-6 what-grid">
+					<div class="list-img">
+						<img src="images/5.jpg" class="img-responsive" alt="" />
+						<div class="textbox"></div>
+					</div>
+				</div>
+				<div class="col-md-6 what-grid1">
+					<div class="what-top">
+						<div class="what-left">
+							<i class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></i>
+						</div>
+						<div class="what-right">
+							<h4>Intelligent vehicle mounted BMS</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est,
+								impedit incidunt, laboriosam </p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="what-top1">
+						<div class="what-left">
+							<i class="glyphicon glyphicon-flash" aria-hidden="true"></i>
+						</div>
+						<div class="what-right">
+							<h4>Intelligent energy storage BMS</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est,
+								impedit incidunt, laboriosam </p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="what-top1">
+						<div class="what-left">
+							<i class="glyphicon glyphicon-fire" aria-hidden="true"></i>
+						</div>
+						<div class="what-right">
+							<h4>Provide data center</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est,
+								impedit incidunt, laboriosam </p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+		</div>
+	</div>
+	<!--advantage-->
+	<!--stats-->
+	<div class="stats" id="stats">
+		<div class="container">
+			<div class="stats-info">
+				<div class="col-md-3 col-sm-3 stats-grid slideanim">
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1200'
+						data-delay='.5' data-increment="1">1200</div>
+					<h4 class="stats-info">Followers</h4>
+				</div>
+				<div class="col-md-3 col-sm-3 stats-grid slideanim">
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='3000'
+						data-delay='.5' data-increment="1">3000</div>
+					<h4 class="stats-info">Support</h4>
+				</div>
+				<div class="col-md-3 col-sm-3 stats-grid slideanim">
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='9000'
+						data-delay='.5' data-increment="10">9000</div>
+					<h4 class="stats-info">Clients</h4>
+				</div>
+				<div class="col-md-3 col-sm-3 stats-grid slideanim">
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='169'
+						data-delay='.5' data-increment="1">169</div>
+					<h4 class="stats-info">Awards</h4>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//stats-->
+	<div class="agileinfo-work-top">
+		<div class="container">
+			<div class="w3-agileits-rides-heading">
+				<h3 class="w3ls_head">Our Recent <span>Works</span></h3>
+			</div>
+
+			<div class="agileits-w3layouts-rides-grids">
+				<div class="col-sm-4 rides-grid">
+					<div class="agileinfo-work">
+						<div class="list-img">
+							<img src="images/g1.jpg" class="img-responsive" alt="">
+							<div class="textbox"></div>
+						</div>
+						<h4>Developing intelligent BMS solutions</h4>
+						<p>We have recently launched an AI powered intelligent BMS that can optimize battery performance data, improve battery safety and lifespan, and provide users with a more intelligent charging experience.</p>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="products.html">View Details</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4 rides-grid">
+					<div class="agileinfo-work">
+						<div class="list-img">
+							<img src="images/g2.jpg" class="img-responsive" alt="">
+							<div class="textbox"></div>
+						</div>
+						<h4>Developing a battery reuse system</h4>
+						<p>We are developing a battery reuse system. Using the data-based battery performance testing system and the battery cell regouping system to convert retired power batteries into energy storage modules.</p>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="products.html">View Details</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4 rides-grid">
+					<div class="agileinfo-work">
+						<div class="list-img">
+							<img src="images/g3.jpg" class="img-responsive" alt="">
+							<div class="textbox"></div>
+						</div>
+						<h4>Collaborating with Gaode Map</h4>
+						<p>We are collaborating with Gaode Maps to integrate intelligent planning and charging strategy functions into our BMS. This will enable users to intelligently plan their charging plans based on their driving route, destination, and traffic conditions.</p>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="products.html">View Details</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer-top">
+		<div class="container">
+			<div class="col-md-3 w3ls-footer-top">
+				<h3>QUICK <span>LINKS</span></h3>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="solutions.html">Solutions</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-5 wthree-footer-top">
+				<h3>ADD<span>RESS</span></h3>
+				<ul>
+					<li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> No.1 Duxue Road, Nansha
+						District, Guangzhou.</li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a
+							href="mailto:13690152826@163.com"> 13690152826@163.com</a></li>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +86 13690152826</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4 w3l-footer-top">
+				<h3>NEWS<span>LETTER</span></h3>
+				<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit reprehenderit qui in ea.</p>
+
+				<form action="#" method="post" class="newsletter">
+					<input class="email" type="email" placeholder="Your email..." required>
+					<input type="submit" class="submit" value="">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+			<div class="footer-w3layouts">
+				<div class="agile-copy">
+					<p>Copyright &copy; 2023.EVM All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //footer -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+</body>
+
+</html>
